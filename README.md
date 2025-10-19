@@ -1,0 +1,2 @@
+[![Build Status](https://github.com/moveoutx/popover-widget/actions/workflows/deploy.yml/badge.svg)](https://github.com/moveoutx/popover-widget/actions)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://moveoutx.github.io/popover-widget/)
