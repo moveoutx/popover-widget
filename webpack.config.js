@@ -7,11 +7,11 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.[contenthash].js',
         clean: true,
-        publicPath: '/',
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './index.html',
+            template: './src/index.html',
+            filename: 'index.html'
         }),
     ],
     module: {
@@ -25,5 +25,6 @@ module.exports = {
     devServer: {
         port: 3000,
         open: true,
+        static: './dist',
     },
 };
